@@ -1,5 +1,3 @@
-# illallangi.enterprises - Illallangi Services #
+# status.illallangi.enterprises - Illallangi Status #
 
-My homelab home page.
-
-Code stolen borrowed from [msportals.io](https://github.com/adamfowlerit/msportals.io/blob/master/about.md)
+My status page.
