@@ -6,6 +6,13 @@
   <title>Illallangi Status</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous" />
+  <style>
+    .button {
+      margin: 0 auto;
+      width: 92px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -32,11 +39,11 @@
           <th scope="col">Location</th>
           <th scope="col">Device</th>
           <th scope="col">Protocol</th>
-          <th scope="col">mel</th>
-          <th scope="col">moo</th>
-          <th scope="col">lon</th>
-          <th scope="col">gil</th>
-          <th scope="col">haw</th>
+          <th scope="col" style="text-align: center">mel</th>
+          <th scope="col" style="text-align: center">moo</th>
+          <th scope="col" style="text-align: center">lon</th>
+          <th scope="col" style="text-align: center">gil</th>
+          <th scope="col" style="text-align: center">haw</th>
         </tr>
       </thead>
       <tbody>
@@ -46,14 +53,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/core-router_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/core-router_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/core-router_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/core-router_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/core-router_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/core-router_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -62,8 +71,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/core-router_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/core-router_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/core-router_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -73,14 +83,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/distribution-switch_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/distribution-switch_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/distribution-switch_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/distribution-switch_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/distribution-switch_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/distribution-switch_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -89,8 +101,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/distribution-switch_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/distribution-switch_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/distribution-switch_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -100,14 +113,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/access-switch-1_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/access-switch-1_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -116,8 +131,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/access-switch-1_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -127,14 +143,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/access-switch-2_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-2_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/access-switch-2_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-2_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -143,8 +161,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/access-switch-2_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-2_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -154,14 +173,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/access-switch-3_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-3_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/access-switch-3_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-3_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -170,8 +191,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/access-switch-3_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/access-switch-3_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -181,14 +203,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/mel-scx-1_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/mel-scx-1_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -197,8 +221,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/mel-scx-1_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -208,28 +233,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/mel-scx-1_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/mel-scx-1_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/mel-scx-1_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/mel-scx-1_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/mel-scx-1_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-1_tailscale-icmp/health/badge.svg" /></div>
           </td>
           
         </tr>
@@ -238,13 +268,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/mel-scx-2_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/mel-scx-2_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -252,8 +284,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/mel-scx-2_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -261,28 +294,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/mel-scx-2_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/mel-scx-2_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/mel-scx-2_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/mel-scx-2_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/mel-scx-2_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
 
         </tr>
@@ -291,13 +329,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/mel-scx-3_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/mel-scx-3_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -305,8 +345,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/mel-scx-3_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -314,28 +355,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/mel-scx-3_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/mel-scx-3_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/mel-scx-3_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/mel-scx-3_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/mel-scx-3_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/mel-scx-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           
         </tr>
@@ -345,14 +391,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-1_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-1_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -361,8 +409,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-1_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -370,32 +419,37 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-1_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-1_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-1_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-1_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-1_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -404,13 +458,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-2_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-2_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -418,8 +474,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-2_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -427,28 +484,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-2_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-2_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-2_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-2_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-2_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-2_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
         <tr>
@@ -456,13 +518,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-3_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-3_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -470,8 +534,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-3_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -479,28 +544,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-3_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-3_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-3_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-3_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-3_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-3_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
 
@@ -509,13 +579,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-4_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-4_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -523,8 +595,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-4_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -532,28 +605,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-4_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-4_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-4_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-4_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-4_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-4_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
 
@@ -562,13 +640,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-5_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-5_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -576,8 +656,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-5_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -585,28 +666,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-5_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-5_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-5_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-5_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-5_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-5_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
 
@@ -615,13 +701,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-6_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-6_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -629,8 +717,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-6_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -638,28 +727,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-6_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-6_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-6_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-6_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-6_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-6_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
         <tr>
@@ -667,13 +761,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-7_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-7_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -681,8 +777,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-7_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -690,28 +787,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-7_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-7_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-7_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-7_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-7_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-7_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
         <tr>
@@ -719,13 +821,15 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-8_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-8_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_lan-icmp/health/badge.svg" /></div>
           </td>
           <td>
           </td>
@@ -733,8 +837,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-8_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -742,28 +847,33 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/moo-pi4-8_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/moo-pi4-8_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/moo-pi4-8_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/moo-pi4-8_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" /></div>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/moo-pi4-8_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/moo-pi4-8_tailscale-icmp/health/badge.svg" /></div>
           </td>
         </tr>
 
@@ -780,8 +890,9 @@
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/lon-cm4-1_lan-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -793,32 +904,37 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/lon-cm4-1_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/lon-cm4-1_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/lon-cm4-1_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/lon-cm4-1_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/lon-cm4-1_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/lon-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -835,8 +951,9 @@
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/gil-cm4-1_lan-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -846,32 +963,37 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/gil-cm4-1_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/gil-cm4-1_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/gil-cm4-1_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/gil-cm4-1_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/gil-cm4-1_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/gil-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -882,14 +1004,16 @@
           <td>LAN ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/haw-cm4-1_lan-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/haw-cm4-1_lan-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
@@ -898,8 +1022,9 @@
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/haw-cm4-1_lan-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_lan-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_lan-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
@@ -907,32 +1032,37 @@
           <td>TS ICMP</td>
           <td>
             <a href="https://mel-gatus.illallangi.enterprises/endpoints/haw-cm4-1_tailscale-icmp">
-              <img
-                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://mel-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://moo-gatus.illallangi.enterprises/endpoints/haw-cm4-1_tailscale-icmp">
-              <img
-                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://moo-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://lon-gatus.illallangi.enterprises/endpoints/haw-cm4-1_tailscale-icmp">
-              <img
-                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://lon-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://gil-gatus.illallangi.enterprises/endpoints/haw-cm4-1_tailscale-icmp">
-              <img
-                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://gil-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
           <td>
             <a href="https://haw-gatus.illallangi.enterprises/endpoints/haw-cm4-1_tailscale-icmp">
-              <img
-                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" />
+              <div class="button"><img
+                onerror="this.onerror=null; this.src='./error.svg'"
+                src="https://haw-gatus.illallangi.enterprises/api/v1/endpoints/haw-cm4-1_tailscale-icmp/health/badge.svg" /></div>
             </a>
           </td>
         </tr>
